@@ -1,0 +1,60 @@
+* {
+    font-family: 'Luckiest Guy', cursive;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: #fff;
+
+}
+
+body {
+    margin: 75px 75px 75px 75px;
+    border-style: solid;
+    border-color: aqua;
+    display: block;
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/21/49/8GgVBK.jpg');
+    background-size: cover;
+
+    
+}
+
+h1 {
+    margin: 75px 75px 75px 75px;
+    padding: 25px 25px;
+    font-size: 85px;
+    background-color: black;
+    
+    color: #fff;
+
+}
+
+
+input {
+    margin: 5px 75px 5px 75px;
+    /* padding: 25px 25px; */
+    align-items: center;
+    height: 35px;
+    width: 40%;
+    color: black;
+    
+    
+
+}
+
+
+main {
+    margin: 25px 75px 25px 75px;
+    padding: 25px 25px;
+    /* padding: 0px 25px 25px 0px; */
+    background-color: black;
+    color:white;
+    font-size: 50px;
+    opacity: .9;
+
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+
+    font-size: medium;
+}
