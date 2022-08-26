@@ -1,60 +1,184 @@
+/* fonts setting for the whole app. */
 * {
-    font-family: 'Luckiest Guy', cursive;
-    font-family: 'PT Sans Narrow', sans-serif;
-    color: #fff;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    margin: 75px 75px 75px 75px;
-    border-style: solid;
-    border-color: aqua;
-    display: block;
-    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/21/49/8GgVBK.jpg');
-    background-size: cover;
-
-    
+/* media screen full-width settings */
+body{
+    margin: 45px 45px 45px 45px;
 }
 
-h1 {
-    margin: 75px 75px 75px 75px;
-    padding: 25px 25px;
-    font-size: 85px;
-    background-color: black;
-    
-    color: #fff;
-
-}
-
-
-input {
-    margin: 5px 75px 5px 75px;
-    /* padding: 25px 25px; */
-    align-items: center;
-    height: 35px;
-    width: 40%;
-    color: black;
-    
-    
-
-}
-
-
-main {
-    margin: 25px 75px 25px 75px;
-    padding: 25px 25px;
-    /* padding: 0px 25px 25px 0px; */
-    background-color: black;
-    color:white;
-    font-size: 50px;
-    opacity: .9;
-
-}
-
-p {
+form {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
+    flex-direction: column;
+    padding-top:50px;
+    padding-bottom: 50px;
+    height: 200px;
+    align-items:center;
+    border: solid;
+    border-color: #EE6352;
+    text-transform: uppercase;
+}
 
+#mainTitle {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    width: 90%;
+    background-color: #EE6352;
+    color: #ffff;
+    
+}
+
+#searchBar {
+    width: 70%;
+    height: 35px;
     font-size: medium;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #EE6352; 
+}
+
+::placeholder{
+    color: #EE6352;
+    padding: 5px 5px;
+    opacity: .5;
+}
+
+#searchBar:focus{
+    outline:none;
+    width: 80%;
+    color: #EE6352;
+    background-color: #fff;
+}
+
+#searchButton {
+    height: 35px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: none;
+    width: 70%;
+    background-color: #EE6352;
+    color: #ffff;
+    margin: 25px 25px;   
+    font-size: x-small;
+}
+
+#searchButton:hover {
+    background-color: #fff;
+    color: #EE6352;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #EE6352;
+}
+
+.information {
+    margin: 25px 75px 25px 75px;
+    padding: 10px 25px;
+    background-color: #EE6352;
+    color:#fff;
+    border-style: solid;
+    border-color:#EE6352; 
+}
+hr{
+    border-style: solid;
+    border-color: #fff;
+}
+p {
+    font-size: small;
+
+}
+
+/* media screen for moblie */
+@media (max-width: 480px) {
+
+    body{
+        margin: 5px 5px;
+        background-color: #fff;  
+    }
+
+    #mainTitle {
+        width: 95%;
+    }
+
+    #searchBar {
+        width: 50%;
+        height: 30px;
+        margin-top: 10px;
+        font-size: x-small;
+        text-align: center;
+    }    
+   
+    #searchButton {
+        height: 30px;
+        width: 50%;
+    }
+
+    .information {
+        margin: 0px 0px 0px 0px;
+    }
+
+    h1 {
+        font-size:large;
+    }
+
+}
+
+/* Media Query for Tablets, Ipads */
+@media (min-width: 480px) and (max-width: 767px) {
+    #mainTitle {
+        width: 95%;
+    }
+
+    #searchBar {
+        margin-top: 15px;
+        width: 70%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    #searchBar:focus{
+        width: 90%;
+    }
+
+    #searchButton {
+        height: 30px;
+        width: 70%;
+    }
+
+    .information {
+        margin: 0px 0px 0px 0px;
+    }
+
+    h1 {
+        font-size:larger;
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    #mainTitle {
+        width: 95%;
+        height: 30px;
+        padding-bottom: 10px;
+    }
+
+    #searchBar {
+        margin-top: 15px;
+        width: 50%;
+        font-size: 10px;
+        text-align: center;
+    }    
+
+    #searchBar:focus{
+        width: 90%;
+    }
+
+    #searchButton {
+        height: 30px;
+        width: 50%;
+    }
+
+    .information {
+        margin: 0px 0px 0px 0px;
+    }
 }
