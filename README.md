@@ -13,7 +13,8 @@ A web application that search (by keywords) and display information of the event
 ![Landing Screenshot](https://i.ibb.co/MMbtf0x/Screen-Shot-2022-08-26-at-5-45-19-AM.png)
 ![Search Keyword](https://i.ibb.co/x8JZGhF/Screen-Shot-2022-08-26-at-5-45-30-AM.png)
 ![Search Results](https://i.ibb.co/1QGXnR7/Screen-Shot-2022-08-26-at-5-45-49-AM.png)
-![Search Results](https://i.ibb.co/sPnt2TP/Screen-Shot-2022-08-26-at-5-45-58-AM.png)
+![Search Results 2](https://i.ibb.co/sPnt2TP/Screen-Shot-2022-08-26-at-5-45-58-AM.png)
+
 
 
 ## Check it out! </br>
